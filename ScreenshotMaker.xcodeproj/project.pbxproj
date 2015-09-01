@@ -12,6 +12,7 @@
 		09AE0A211B95CEBB00739A64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AE0A201B95CEBB00739A64 /* Images.xcassets */; };
 		09AE0A241B95CEBB00739A64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09AE0A221B95CEBB00739A64 /* LaunchScreen.xib */; };
 		09AE0A301B95CEBB00739A64 /* ScreenshotMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AE0A2F1B95CEBB00739A64 /* ScreenshotMakerTests.m */; };
+		09AE0A3B1B95CF4000739A64 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AE0A3A1B95CF4000739A64 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		09AE0A291B95CEBB00739A64 /* ScreenshotMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenshotMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09AE0A2E1B95CEBB00739A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09AE0A2F1B95CEBB00739A64 /* ScreenshotMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenshotMakerTests.m; sourceTree = "<group>"; };
+		09AE0A391B95CF4000739A64 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		09AE0A3A1B95CF4000739A64 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				09AE0A1D1B95CEBB00739A64 /* AppDelegate.h */,
 				09AE0A1E1B95CEBB00739A64 /* AppDelegate.m */,
+				09AE0A391B95CF4000739A64 /* MainViewController.h */,
+				09AE0A3A1B95CF4000739A64 /* MainViewController.m */,
 				09AE0A201B95CEBB00739A64 /* Images.xcassets */,
 				09AE0A221B95CEBB00739A64 /* LaunchScreen.xib */,
 				09AE0A191B95CEBB00739A64 /* Supporting Files */,
@@ -211,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09AE0A1F1B95CEBB00739A64 /* AppDelegate.m in Sources */,
+				09AE0A3B1B95CF4000739A64 /* MainViewController.m in Sources */,
 				09AE0A1C1B95CEBB00739A64 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
