@@ -1,2 +1,17 @@
 
 Podfile
+
+*.lock
+
+Pods/*
+
+*.pbxproj
+
+
+ScreenshotMaker.xcodeproj/project.pbxproj
+
+ScreenshotMaker.xcodeproj/project.pbxproj
+
+ScreenshotMaker.xcworkspace/contents.xcworkspacedata
+
+*.pbxproj
