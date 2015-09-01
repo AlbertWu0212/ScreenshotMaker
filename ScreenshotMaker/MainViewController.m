@@ -7,6 +7,8 @@
 //
 
 #import "MainViewController.h"
+#import "DeviceDefiner.h"
+
 
 @interface MainViewController ()
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = [DeviceDefiner fetchMyDevice];
 }
 
 - (void)didReceiveMemoryWarning {
